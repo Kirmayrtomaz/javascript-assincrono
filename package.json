@@ -1,0 +1,33 @@
+{
+  "name": "javascript-assincrono",
+  "version": "0.0.1",
+  "description": "Teste com exemplos de assincronidade",
+  "main": "./node_modules/.bin/nodemon index.js",
+  "scripts": {
+    "callback": "./node_modules/.bin/nodemon index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirmayrtomaz/javascript-assincrono.git"
+  },
+  "keywords": [
+    "javascript",
+    "callback",
+    "async",
+    "await",
+    "promises"
+  ],
+  "author": "Kirmayr Toamz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirmayrtomaz/javascript-assincrono/issues"
+  },
+  "homepage": "https://github.com/Kirmayrtomaz/javascript-assincrono#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "helmet": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0"
+  }
+}
